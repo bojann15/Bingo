@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.selector{
+  
+  color: #fff;
+  border-radius: 20%;
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  padding-top: .75rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  
+}
+.selector:hover{
+  opacity: 0.3;
+}
+
+.Ball{
+    background-color:black;
+    border-radius: 50%;
+    color: #fff;
+    display: grid;
+    width: 3rem;
+    height: 3rem;
+    padding-top: .75rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+  max-width: 1430px;
+  min-height: 100vh;
+  margin: 30px auto  ;
+  padding: 30px 40px;
+  box-shadow: 0 0 35px lightskyblue;
+  background-color: rgb(249, 251, 252);
+}
+.numbers{
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+  position: absolute;
+  top: 130px;
+  left: 800px;
+  
+}
+.random{
+  background-color: red;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 520px;
+  left: 500px;
+  border: none;
+  border-radius: 6px;
+}
+.reset{
+  background-color: red;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 590px;
+  left: 500px;
+  border: none;
+  border-radius: 6px;
+  
+}
+#title{
+  letter-spacing: 1px;
+  font-size: x-large;
+  font-weight: bold;
+  position: absolute;
+  left: 800px;
+  top: 50px;
+  font-style: oblique;
+}
+hr {
+  width: 40%;
+  position: absolute;
+  left: 800px;
+  top: 99px;
+  opacity: 0.5;
+}
